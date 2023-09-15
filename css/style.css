@@ -17,3 +17,45 @@
 	--color-blue-square: #0d2481;
 	--color-yellow-square: #ffd830;
 }
+.debug{
+    border: 1px solid black;
+}
+ul{
+    list-style: none;
+	height: 100%;
+}
+ /* navbar */
+ nav{
+    background-color: var(--color-color-white);
+	position: fixed;
+	width: 100%;
+ }
+ .nav-section{
+	padding: 10px;
+ }
+ .nav-section li{
+	padding: 10px;
+ }
+ .nav-section a{
+	text-decoration: none;
+	color: var(--color-color-black);
+ }
+ .nav-section button{
+	color: var(--color-color-white);
+	background-color: var(--color-blue-button);
+	padding: 5px 13px;
+	border: transparent;
+ }
+
+ /* flex */
+ .d-flex{
+    display: flex;
+    flex-flow: row nowrap;
+ }
+.sb-flex{
+    justify-content: space-between;
+}
+.a-center{
+	align-items: center;
+	align-content: center;
+}
