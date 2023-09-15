@@ -12,10 +12,11 @@
 	--color-blue-square: #0093ce;
 	--color-purple-square: #61082b;
 	--color-red-square: #ff1c1c;
-	--color-grey-square: #f5f5f5;
+	--color-grey-square: #b4d0e7;
 	--color-dark-red-square: #d5001f;
 	--color-blue-square: #0d2481;
 	--color-yellow-square: #ffd830;
+	--color-light-grey: #f5f5f5;
 }
 .debug{
     border: 1px solid black;
@@ -45,15 +46,20 @@ h1{
 }
 h2{
 	font-size: 3em;
-	padding: 70px 0 15px;
 	font-weight: 900;
 }
 h3{
 	font-size: 1.5em;
-	padding: 20px 0;
+	
 }
 h4{
 	font-weight: 900;
+	padding: 20px 0;
+}
+h5{
+	font-weight: 900;
+}
+p{
 	padding: 20px 0;
 }
 .horizontal-rule{
@@ -123,12 +129,15 @@ h4{
 
 /* main */
 main{
-	padding-top: 70px;
+	padding-top: 150px;
 }
 
 /* section 1 */
 section{
 	padding: 60px 0;
+}
+.section-1 h3{
+	padding-bottom: 10px;
 }
 .fatturazione-radio{
 	padding: 40px 0;
@@ -211,9 +220,7 @@ label{
 	max-width: 30%;
 	padding: 60px;
 }
-section p{
-	padding-bottom: 30px;
-}
+
 .section-2 button{
 	color: var(--color-color-black);
 	background-color: var(--color-color-white);
@@ -223,14 +230,118 @@ section p{
 }
 
 /* section 3 */
-.section-3 h2{
-	padding-top: 0;
-}
 .business-operations{
 	padding: 35px 0;
 }
 .section-3 .img-container{
 	min-width: 200px;
+}
+/* section 4 */
+.section-4{
+	width: 60%;
+	padding-bottom: 50px;
+}
+.section-4 h2{
+	padding-bottom: 50px;
+}
+.partners-section{
+	width: calc(100vw / 3);
+	height:	calc(100vw / 3) ;
+}
+.partners{
+	width: calc(100% / 2);
+	height: calc(100% / 2);
+}
+.partners .img-container{
+	width: 100%;
+	height: 100%;
+}
+.partners img{
+	width: 50%;
+	filter: invert(1);
+	
+}
+.partners:hover{
+	border: 10px solid #d1e9cd;
+	cursor: pointer;
+}
+.container-central{
+	padding: 40px;
+}
+.container-central p{
+	padding: 40px 0;
+}
+.img-container-central{
+	width: 60%;
+	padding-bottom: 40px;
+}
+.img-container-central img{
+	width: 100%;
+}
+.partners-section.central{
+	background-color: var(--color-light-grey);
+}
+.designit{
+	background-color: var(--color-green-square);
+}
+.asu{
+	background-color: var(--color-purple-square);
+}
+.florida{
+	background-color: var(--color-blue-square);
+}
+.topps{
+	background-color: var(--color-red-square);
+}
+.bicycle{
+	background-color: var(--color-dark-red-square);
+}
+.hearst{
+	background-color: var(--color-grey-square);
+}
+.lonely-planet{
+	background-color: var(--color-blue-button);
+}
+.clear-channel{
+	background-color: var(--color-yellow-square);
+}
+/* section 5 */
+.section-5{
+	background-color: var(--color-grey-square);
+}
+.section-5 .d-flex{
+	padding: 40px 0px;
+}
+.section-5 h2{
+	width: 50%;
+	color: var(--color-purple-square);
+}
+.section-5 button{
+	color: var(--color-color-black);
+	background-color: var(--color-color-white);
+	width: 23%;
+	padding: 5px 0;
+}
+/* section 6 */
+.section-6{
+	padding-top: 120px;
+}
+.summary-container{
+	padding: 60px 0;
+}
+.summary{
+	padding: 20px 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.section-6 .icon{
+	padding-right: 40px;
+}
+.summary.center{
+	border: none;
+}
+.fa-angle-down:hover{
+	cursor: pointer;
 }
  /* flex */
  .d-flex{
