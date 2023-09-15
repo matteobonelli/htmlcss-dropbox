@@ -134,8 +134,7 @@ label{
 	padding-right:30px;
 }
 .business-cards{
-	width: calc(100% / 3);
-	padding-right: 50px;
+	width: calc(100% / 3 - 30px);
 }
 .user-trial{
 	text-align: center;
@@ -172,7 +171,7 @@ label{
 	color: var(--color-blue-button);
 }
 .business-card-horizontal{
-	width: calc(100% - 50px);
+	width: 100%;
 	padding-top: 90px;
 }
 .horizontal-card-container{
@@ -212,4 +211,8 @@ label{
 }
 .column-flex{
 	flex-direction: column;
+}
+.stretch{
+	align-items: stretch;
+	align-content: stretch;
 }
