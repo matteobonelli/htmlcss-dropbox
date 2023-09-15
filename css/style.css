@@ -92,7 +92,7 @@ h4{
 	position: relative;
 }
 .hero-container{
-	max-width: 65%;
+	max-width: 70%;
 	min-width: 500px;
 	position: absolute;
 	top: 30px;
@@ -123,17 +123,20 @@ h4{
 
 /* main */
 main{
-	padding-top: 100px;
+	padding-top: 70px;
 }
 
 /* section 1 */
+section{
+	padding: 60px 0;
+}
 .fatturazione-radio{
 	padding: 40px 0;
 }
 label{
 	padding-right:30px;
 }
-.business-cards{
+.business-cards, .business-operations-cards{
 	width: calc(100% / 3 - 30px);
 }
 .user-trial{
@@ -191,6 +194,44 @@ label{
 	padding: 8px 24px;
     margin: 20px;
 }
+
+/* section 2 */
+.section-2 .d-flex{
+	padding: 70px 0;
+}
+.section-2 .img-container{
+	max-width: 55%;
+	min-width: 500px;
+}
+
+.img-container img{
+	width: 100%;
+}
+.paragraph{
+	max-width: 30%;
+	padding: 60px;
+}
+section p{
+	padding-bottom: 30px;
+}
+.section-2 button{
+	color: var(--color-color-black);
+	background-color: var(--color-color-white);
+	box-shadow: -1px 1px black;
+	border: 1px solid black;
+	
+}
+
+/* section 3 */
+.section-3 h2{
+	padding-top: 0;
+}
+.business-operations{
+	padding: 35px 0;
+}
+.section-3 .img-container{
+	min-width: 200px;
+}
  /* flex */
  .d-flex{
     display: flex;
@@ -215,4 +256,7 @@ label{
 .stretch{
 	align-items: stretch;
 	align-content: stretch;
+}
+.js-center{
+	justify-content: center;
 }
