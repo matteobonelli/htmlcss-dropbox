@@ -28,16 +28,43 @@ ul{
 	max-width: 1200px;
 	margin: 0 auto;
 }
+button{
+	color: var(--color-color-white);
+	background-color: var(--color-blue-button);
+	padding: 7px 13px;
+	border: transparent;
+ }
+ button:hover{
+	cursor: pointer;
+ }
 h1{
 	font-size: 6em;
 	padding: 50px 0 15px;
 	font-weight: 900;
+}
+h2{
+	font-size: 3em;
+	padding: 70px 0 15px;
+	font-weight: 900;
+}
+h3{
+	font-size: 1.5em;
+	padding: 20px 0;
+}
+h4{
+	font-weight: 900;
+	padding: 20px 0;
+}
+.horizontal-rule{
+	border: 1px solid lightgray;
+	width: 20%;
 }
  /* navbar */
  nav{
     background-color: var(--color-color-white);
 	position: fixed;
 	width: 100%;
+	z-index: 100000;
  }
  .nav-section{
 	padding: 10px;
@@ -52,12 +79,7 @@ h1{
  .nav-section a:hover{
 	text-decoration: underline;
  }
- button{
-	color: var(--color-color-white);
-	background-color: var(--color-blue-button);
-	padding: 7px 13px;
-	border: transparent;
- }
+ 
 
  /* header */
  header{
@@ -94,6 +116,57 @@ h1{
 	padding: 30px 0 5px;
 	font-size: 3em;
 }
+
+/* main */
+main{
+	padding-top: 100px;
+}
+
+/* section 1 */
+.fatturazione-radio{
+	padding: 40px 0;
+}
+label{
+	padding-right:30px;
+}
+.business-cards{
+	width: calc(100% / 3);
+	padding-right: 50px;
+}
+.user-trial{
+	text-align: center;
+	padding: 10px;
+	border: 1px solid lightgray;
+}
+.trial{
+	padding: 0 15px;
+	border: 1px solid lightgray;
+	border-top: 0;
+	height: 100%;
+}
+.payment-type{
+	font-weight: 900;
+}
+.montly-payment{
+	color: gray;
+	padding-top: 5px;
+}
+.trial-info{
+	padding: 40px 0;
+}
+.trial-per-user-info{
+	padding: 6px 0;
+}
+.icon{
+	padding-right: 8px;
+}
+.trial button{
+	width: 100%;
+	padding: 10px
+}
+.icon .fa-check{
+	color: var(--color-blue-button);
+}
  /* flex */
  .d-flex{
     display: flex;
@@ -111,4 +184,7 @@ h1{
 }
 .start-flex{
 	justify-content: flex-start;
+}
+.column-flex{
+	flex-direction: column;
 }
