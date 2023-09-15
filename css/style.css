@@ -20,6 +20,7 @@
 .debug{
     border: 1px solid black;
 }
+
 ul{
     list-style: none;
 	height: 100%;
@@ -102,7 +103,7 @@ h4{
 	width: 100%;
 }
 .header-container{
-	max-width: 26%;
+	max-width: 25%;
 	padding-bottom: 20px;
 	
 }
@@ -111,6 +112,9 @@ h4{
 }
 .header-container button{
 	margin-bottom: 25px;
+}
+.header-container div{
+	width: 100%;
 }
 .arrow-down{
 	padding: 30px 0 5px;
@@ -166,6 +170,27 @@ label{
 }
 .icon .fa-check{
 	color: var(--color-blue-button);
+}
+.business-card-horizontal{
+	width: calc(100% - 50px);
+	padding-top: 90px;
+}
+.horizontal-card-container{
+	padding: 20px;
+	border: 1px solid lightgray;
+	border-top: 0;
+}
+.payment-type p{
+	font-weight: 500;
+	padding-top: 40px;
+}
+
+.business-card-horizontal h4{
+	padding: 0;
+}
+.business-card-horizontal button{
+	padding: 8px 24px;
+    margin: 20px;
 }
  /* flex */
  .d-flex{
