@@ -24,6 +24,15 @@ ul{
     list-style: none;
 	height: 100%;
 }
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+h1{
+	font-size: 6em;
+	padding: 50px 0 15px;
+	font-weight: 900;
+}
  /* navbar */
  nav{
     background-color: var(--color-color-white);
@@ -40,13 +49,51 @@ ul{
 	text-decoration: none;
 	color: var(--color-color-black);
  }
- .nav-section button{
+ .nav-section a:hover{
+	text-decoration: underline;
+ }
+ button{
 	color: var(--color-color-white);
 	background-color: var(--color-blue-button);
-	padding: 5px 13px;
+	padding: 7px 13px;
 	border: transparent;
  }
 
+ /* header */
+ header{
+	background-color: var(--color-blue-header);
+	padding-top: 70px;
+	
+ }
+.header-hero{
+	position: relative;
+}
+.hero-container{
+	max-width: 65%;
+	min-width: 500px;
+	position: absolute;
+	top: 30px;
+	left: 300px;
+
+}
+.hero-container img{
+	width: 100%;
+}
+.header-container{
+	max-width: 26%;
+	padding-bottom: 20px;
+	
+}
+.header-container p{
+	padding: 30px 0;
+}
+.header-container button{
+	margin-bottom: 25px;
+}
+.arrow-down{
+	padding: 30px 0 5px;
+	font-size: 3em;
+}
  /* flex */
  .d-flex{
     display: flex;
@@ -58,4 +105,10 @@ ul{
 .a-center{
 	align-items: center;
 	align-content: center;
+}
+.wrap{
+	flex-wrap: wrap;
+}
+.start-flex{
+	justify-content: flex-start;
 }
