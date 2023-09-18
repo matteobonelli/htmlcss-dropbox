@@ -82,15 +82,20 @@ a:hover{
  /* navbar */
  nav{
     background-color: var(--color-color-white);
+	height: 70px;
 	position: fixed;
 	width: 100%;
 	z-index: 100000;
  }
  .nav-section{
-	padding: 10px;
+	
  }
  .nav-section li{
 	padding: 10px;
+	height: 100%;
+ }
+ .nav-section li:hover{
+	background-color: #f2eee8;
  }
  .nav-section a{
 	text-decoration: none;
@@ -356,15 +361,25 @@ label{
 .summary.center{
 	border: none;
 }
-.fa-angle-down:hover{
-	cursor: pointer;
-}
 .gray{
 	color: gray;
 }
 .gray .horizontal-rule{
 	border: 1px solid gray;
 }
+.summary-display{
+	display: none;
+	border-bottom: 1px solid black;
+	padding: 0px 0 20px;
+}
+.summary:hover + .summary-display{
+	display: block;
+}
+.summary:hover{
+	border-bottom: none;
+}
+
+
 /* footer */
 footer{
 	background-color: var(--color-color-black);
