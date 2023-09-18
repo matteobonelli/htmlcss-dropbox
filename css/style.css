@@ -40,6 +40,9 @@ ul{
 	max-width: 1200px;
 	margin: 0 auto;
 }
+a:hover{
+	color: var(--color-blue-button);
+}
 button{
 	color: var(--color-color-white);
 	background-color: var(--color-blue-button);
@@ -48,6 +51,7 @@ button{
  }
  button:hover{
 	cursor: pointer;
+	background-color: var(--color-blue-square);
  }
 h1{
 	font-size: 6em;
@@ -83,25 +87,49 @@ a:hover{
  nav{
     background-color: var(--color-color-white);
 	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100%;
 	z-index: 100000;
  }
- .nav-section ul{
+ nav ul{
 	height: 100%;
  }
- .nav-section li{
-	padding: 10px;
+ nav li{
+	position: relative;
+	padding: 6px 10px;
+	height: 100%;
  }
- .nav-section li:hover{
+ nav li:hover{
 	background-color: #f2eee8;
  }
- .nav-section a{
+ nav li:hover .submenu{
+	display: block;
+ }
+ nav a{
 	text-decoration: none;
 	color: var(--color-color-black);
  }
- .nav-section a:hover{
+ nav a:hover{
 	text-decoration: underline;
+	color: var(--color-color-black);
  }
+ .submenu{
+	display: none;
+	position: absolute;
+	left: 0;
+	background-color: #f2eee8;
+	width: 150px;
+ }
+ .submenu a{
+	color: var(--color-color-black);
+	padding: 12px 10px;
+	text-decoration: none;
+	display: block;
+ }
+.logo-nav:hover, .accedi:hover{
+	background-color: var(--color-color-white);
+}
  /* header */
  header{
 	background-color: var(--color-blue-header);
@@ -150,6 +178,9 @@ section{
 }
 label{
 	padding-right:30px;
+}
+input:hover, label:hover{
+	cursor: pointer;
 }
 .business-cards, .business-operations-cards{
 	width: calc(100% / 3 - 30px);
@@ -240,6 +271,9 @@ label{
 	box-shadow: -1px 1px black;
 	border: 1px solid black;
 	
+}
+.section-2 button:hover, .section-5 button:hover{
+	filter: drop-shadow(0px 2px 4px black);
 }
 
 /* section 3 */
@@ -379,6 +413,9 @@ label{
 .summary:hover{
 	border-bottom: none;
 	cursor: pointer;
+}
+.summary-display:nth-child(4){
+	border-bottom: none;
 }
 
 
