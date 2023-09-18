@@ -119,14 +119,19 @@ a:hover{
 .header-container div{
 	width: 100%;
 }
+.header-container p{
+	padding: 0;
+}
+.hero-button{
+	padding: 40px 0;
+}
 .arrow-down{
 	font-size: 3em;
+	padding-top: 60px;
 }
 
 /* main */
-main{
-	padding-bottom: 90px;
-}
+
 /* section 1 */
 section{
 	padding: 60px 0;
@@ -388,6 +393,10 @@ footer .horizontal-rule{
 .a-center{
 	align-items: center;
 	align-content: center;
+}
+.a-start{
+	align-items: flex-start;
+	align-content: flex-start;
 }
 .wrap{
 	flex-wrap: wrap;
