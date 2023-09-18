@@ -82,17 +82,15 @@ a:hover{
  /* navbar */
  nav{
     background-color: var(--color-color-white);
-	height: 70px;
 	position: fixed;
 	width: 100%;
 	z-index: 100000;
  }
- .nav-section{
-	
+ .nav-section ul{
+	height: 100%;
  }
  .nav-section li{
 	padding: 10px;
-	height: 100%;
  }
  .nav-section li:hover{
 	background-color: #f2eee8;
@@ -375,8 +373,12 @@ label{
 .summary:hover + .summary-display{
 	display: block;
 }
+.summary:hover .fa-angle-down{
+	transform: rotate(180deg);
+}
 .summary:hover{
 	border-bottom: none;
+	cursor: pointer;
 }
 
 
