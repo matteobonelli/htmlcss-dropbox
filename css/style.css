@@ -90,7 +90,7 @@ a:hover{
  /* navbar */
  nav{
     background-color: var(--color-color-white);
-	height: 70px;
+	height: 50px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -101,6 +101,7 @@ a:hover{
  }
  .logo-nav, .accedi{
 	padding: 12px;
+	height: 100%;
  }
  nav li{
 	position: relative;
