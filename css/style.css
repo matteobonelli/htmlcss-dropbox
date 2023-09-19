@@ -36,6 +36,10 @@ ul{
 	position: relative;
 	bottom: -70px;
 }
+.container-small{
+	max-width: 1000px;
+	margin: 0 auto;
+}
 .container2{
 	max-width: 1200px;
 	margin: 0 auto;
@@ -164,7 +168,9 @@ a.arrow-down{
 }
 
 /* main */
-
+main{
+	padding-top: 70px;
+}
 /* section 1 */
 section{
 	padding: 60px 0;
@@ -253,7 +259,7 @@ input:hover, label:hover{
 	padding: 70px 0;
 }
 .section-2 .img-container{
-	max-width: 55%;
+	max-width: 60%;
 	min-width: 500px;
 }
 
@@ -261,8 +267,8 @@ input:hover, label:hover{
 	width: 100%;
 }
 .paragraph{
-	max-width: 30%;
-	padding: 60px;
+	max-width: 40%;
+	padding: 60px
 }
 
 .section-2 button{
