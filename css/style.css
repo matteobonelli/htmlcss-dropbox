@@ -97,8 +97,6 @@ a:hover{
 	width: 100%;
 	z-index: 100000;
  }
- nav ul{
- }
  .logo-nav, .accedi{
 	padding: 12px;
 	height: 100%;
@@ -114,6 +112,7 @@ a:hover{
  }
  nav li:hover .submenu{
 	display: block;
+	z-index: 10;
  }
  nav a{
 	text-decoration: none;
@@ -128,6 +127,7 @@ a:hover{
 	display: none;
 	position: absolute;
 	left: 0;
+	top: 100%;
 	background-color: #f2eee8;
 	width: 150px;
  }
