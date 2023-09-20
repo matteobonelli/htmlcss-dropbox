@@ -91,6 +91,7 @@ a:hover{
  nav{
     background-color: var(--color-color-white);
 	height: 50px;
+	box-shadow: 0 0 3px var(--color-color-black);
 	position: fixed;
 	top: 0;
 	left: 0;
