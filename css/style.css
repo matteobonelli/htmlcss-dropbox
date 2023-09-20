@@ -35,14 +35,17 @@ ul{
 	margin: 0 auto;
 	position: relative;
 	bottom: -70px;
+	padding: 10px;
 }
 .container-small{
 	max-width: 1000px;
 	margin: 0 auto;
+	padding: 10px;
 }
 .container2{
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 10px;
 }
 a:hover{
 	color: var(--color-blue-button);
